@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    text-align: center;
+}
+header{
+    padding: 2vw;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+        "h1 h1 h1"
+        "h2 h2 h2"
+        "nav article article";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 4fr;
+}
+
+h1{
+    grid-area: h1;
+}
+
+#side-nav{
+    grid-area: nav;
+}
+
+article{
+    grid-area: article;
+}
+
+h2{
+    grid-area: h2;
+}
