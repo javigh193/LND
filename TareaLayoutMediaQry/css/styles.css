@@ -1,0 +1,30 @@
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: green;
+}
+
+aside {
+    background-color: yellow;
+}
+
+article {
+    background-color: aqua;
+}
+
+footer {
+    background-color: orangered;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        flex-direction: row;
+    }
+}
